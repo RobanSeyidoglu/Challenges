@@ -1,0 +1,62 @@
+body {
+  background-color: #f1f1f1;
+}
+table {
+  margin: 100px auto;
+  background-color: #f1f1f1;
+  font-size: 1.3rem;
+}
+table caption {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+table tr {
+  padding: 10px;
+}
+table td {
+  padding: 20px;
+  background-color: white;
+  width: 85%;
+}
+.buttons {
+  display: flex;
+  flex-flow: row;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Align buttons to the bottom */
+  margin-top: 20px; /* Add some space between buttons and content above */
+}
+
+.buttons button {
+
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: #790707;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.buttons button:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  background-color: black;
+}
