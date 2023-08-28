@@ -60,3 +60,12 @@ table td {
   -o-transform: scale(1);
   background-color: black;
 }
+.alwalid{
+  transform: scale(0.8) !important;
+  -webkit-transform: scale(0.8) !important;
+  -moz-transform: scale(0.8) !important;
+  -ms-transform: scale(0.8) !important;
+  -o-transform: scale(0.8) !important;
+  background-color: #ccc !important;
+  cursor: auto !important;
+}
