@@ -72,8 +72,8 @@ button.onclick = function () {
     if (t1 > t2) {
       totalbig.innerHTML = t1;
       totalsmall.innerHTML = t2;
-      namesmall.innerHTML = "Mahmoud";
-      namebig.innerHTML = "Sayed";
+      namebig.innerHTML = "Mahmoud";
+      namesmall.innerHTML = "Sayed";
     } else {
       totalbig.innerHTML = t2;
       totalsmall.innerHTML = t1;
