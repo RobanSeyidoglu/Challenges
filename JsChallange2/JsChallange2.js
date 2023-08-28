@@ -90,10 +90,10 @@ reset.onclick = function () {
   totalbig.innerHTML = 0;
   totalsmall.innerHTML = 0;
   TM.forEach((e) => {
-    e.value = 0;
+    e.value = "";
   });
   TS.forEach((e) => {
-    e.value = 0;
+    e.value = "";
   });
   t1 = 0;
   t2 = 0;
