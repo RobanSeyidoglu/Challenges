@@ -81,6 +81,8 @@ button.onclick = function () {
       namesmall.innerHTML = "Mahmoud";
     }
   }
+  t1 = 0;
+  t2 = 0;
 };
 
 reset.onclick = function () {
